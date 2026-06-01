@@ -2,18 +2,28 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
+.pytest_cache/
+
+# Virtual environment (must never enter the image)
 .venv/
 venv/
-.pytest_cache/
-.coverage
-htmlcov/
 
-# Docker / build artifacts
-*.log
-.env
+# Git
+.git/
+.gitignore
 
-# IDE / OS
+# IDE / OS junk
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Docs (not needed at runtime)
+README.md
+
+# Docker itself
+Dockerfile
+.dockerignore
+
+# Jenkins (created in Step 7)
+Jenkinsfile
