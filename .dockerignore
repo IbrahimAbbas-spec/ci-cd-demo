@@ -1,0 +1,28 @@
+# Git metadata
+.git
+.gitignore
+.gitattributes
+
+# Python build/runtime artifacts
+__pycache__
+*.py[cod]
+*.egg-info
+.pytest_cache
+
+# Virtual environments (never inside the image)
+.venv
+venv
+
+# Docs and CI files (not needed at runtime)
+README.md
+Jenkinsfile
+screenshots
+
+# IDE / OS junk
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# The dockerignore file itself
+.dockerignore

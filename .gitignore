@@ -4,26 +4,12 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 
-# Virtual environment (must never enter the image)
+# Virtual environment
 .venv/
 venv/
-
-# Git
-.git/
-.gitignore
 
 # IDE / OS junk
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# Docs (not needed at runtime)
-README.md
-
-# Docker itself
-Dockerfile
-.dockerignore
-
-# Jenkins (created in Step 7)
-Jenkinsfile
