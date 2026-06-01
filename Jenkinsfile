@@ -13,7 +13,6 @@ pipeline {
         // Don't let a hung run wedge Jenkins forever.
         timeout(time: 10, unit: 'MINUTES')
         // Keep console output readable.
-        ansiColor('xterm')
     }
 
     stages {
